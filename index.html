@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>غيفار محمد - معرض الأعمال</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .intro, .skills, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        .intro p, .skills ul, .projects .project, .contact p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #333;
+            color: white;
+            display: inline-block;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+        .projects .project {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .projects .project h3 {
+            margin-top: 0;
+        }
+        .projects .project p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>غيفار محمد - مهندس برمجيات</h1>
+        <p>مطور Full Stack - مصمم UI/UX</p>
+    </header>
+
+    <section class="intro">
+        <h2>عنّي</h2>
+        <p>أنا غيفار محمد، مهندس برمجيات متخصص في تطوير تطبيقات الويب. حاصل على ماجستير أكاديمي في علوم الويب، ولدي خبرة واسعة في العمل كمطور Full Stack باستخدام Spring Boot للـ Backend و Angular للـ Frontend. أتمتع أيضًا بمهارات في تصميم واجهات المستخدم (UI/UX)، وتحليل البيانات باستخدام SPSS و Matlab.</p>
+    </section>
+
+    <section class="skills">
+        <h2>المهارات</h2>
+        <ul>
+            <li>Full Stack Development (Spring Boot & Angular)</li>
+            <li>تصميم واجهات المستخدم (UI/UX)</li>
+            <li>تحليل البيانات باستخدام SPSS</li>
+            <li>برمجة باستخدام Matlab</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>المشاريع</h2>
+        <div class="project">
+            <h3>مشروع 1: تطبيق ويب مخصص للأعمال</h3>
+            <p>تطوير تطبيق ويب باستخدام Spring Boot للـ backend و Angular للـ frontend. يشمل المشروع إدارة بيانات المستخدمين وتنفيذ العمليات المعقدة على البيانات.</p>
+        </div>
+        <div class="project">
+            <h3>مشروع 2: منصة تعليمية عبر الإنترنت</h3>
+            <p>تطوير منصة تعليمية عبر الإنترنت تدعم تخصيص المناهج والاختبارات باستخدام Angular و Spring Boot. يهدف المشروع إلى تسهيل التعلم عن بُعد للمؤسسات التعليمية.</p>
+        </div>
+        <div class="project">
+            <h3>مشروع 3: تطبيق لتحليل البيانات باستخدام SPSS</h3>
+            <p>تحليل البيانات وإعداد التقارير باستخدام SPSS. هذا المشروع يركز على استخدام تقنيات التحليل الإحصائي لبيانات الأعمال.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>تواصل معي</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="الاسم" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <textarea name="message" placeholder="رسالتك" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 غيفار محمد</p>
+    </footer>
+
+</body>
+</html>
